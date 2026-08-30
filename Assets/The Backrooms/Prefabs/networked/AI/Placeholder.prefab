@@ -226,8 +226,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6333e694b26c324fa5a6f376d0e999d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coneRadius: 10
-  coneDistance: 10
+  viewRadius: 6
+  viewAngle: 90
+  targetMask:
+    serializedVersion: 2
+    m_Bits: 512
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 4294966775
+  visibleTargets: []
+  meshResolution: 1
+  edgeResolveIterations: 6
+  edgeDstThreshold: 6
+  maskCutawayDst: 0.1
 --- !u!114 &2734490406007803338
 MonoBehaviour:
   m_ObjectHideFlags: 0
