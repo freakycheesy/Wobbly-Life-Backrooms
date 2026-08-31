@@ -20,10 +20,10 @@ MonoBehaviour:
     modVersion: 1.0.0
     modDescription: 
     modAssetPath: D:\UnityProjects\Wobbly Life Backrooms\Assets\The Backrooms
-    modExportPath: 
+    modExportPath: D:\UnityProjects\Wobbly Life Backrooms
     modIcon: {fileID: 0}
   logLevel: 3
-  optimizeMode: 0
+  optimizeMode: 1
   compressionLevel: 2
   clearConsoleOnBuild: 1
   showOutputDirectory: 1
