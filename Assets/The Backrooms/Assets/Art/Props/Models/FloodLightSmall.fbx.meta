@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c842b10bdeb6b974eba8b4274d16f363
+guid: 235a560db8ffc2b4bb7debebcef9b371
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,18 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: 05f91608eb3b5c147b78f1dd3151aa32, type: 2}
+      name: Light
+    second: {fileID: 2100000, guid: 6f4b8e654c359a04388c2eb22cb164db, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: 03d2f061bbf9474498e4a255e99946b4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: 7b30c1f221297a4498df024bbf75b599, type: 2}
+      name: Plastic
+    second: {fileID: 2100000, guid: 9dc062a138cd49543ac213620ed54966, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -47,12 +42,12 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1
