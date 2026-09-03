@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AIEars : MonoBehaviour
+public class AIEars : MonoBehaviour, IAILimb
 {
     private AIController controller;
     public float hearingDistance = 20;
@@ -21,5 +21,17 @@ public class AIEars : MonoBehaviour
     {
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, hearingDistance);
+    }
+
+    public void OnUpdate()
+    {
+    }
+
+    public void OnLateUpdate()
+    {
+    }
+
+    public void OnFixedUpdate()
+    {
     }
 }

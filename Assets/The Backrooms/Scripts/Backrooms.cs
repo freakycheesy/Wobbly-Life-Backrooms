@@ -24,7 +24,27 @@ public class Backrooms : ModNetworkBehaviour
         base.ModRegisterRPCs(modNetworkObject);
         _noiseClientRpc = modNetworkObject.RegisterRPC(GenerateNoiseClient);
     }
-
+    private void Update()
+    {
+       foreach(var controller in controllers)
+        {
+            controller.OnUpdate();
+        }
+    }
+    private void FixedUpdate()
+    {
+        foreach (var controller in controllers)
+        {
+            controller.OnFixedUpdate();
+        }
+    }
+    private void LateUpdate()
+    {
+        foreach (var controller in controllers)
+        {
+            controller.OnLateUpdate();
+        }
+    }
     private void GenerateNoiseClient(ModNetworkReader reader, ModRPCInfo info)
     {
         Instantiate(noisePrefab).ModStart(reader.ReadVector3(), reader.ReadSingle());
