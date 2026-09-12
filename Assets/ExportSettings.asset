@@ -12,15 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: -2028264498, guid: 4d9ac0cbb6dcbc8428255d2df10dafee, type: 3}
   m_Name: ExportSettings
   m_EditorClassIdentifier: 
-  activeProfile: 0
+  activeProfile: 1
   exportProfiles:
   - referencePaths: []
     modName: The Backrooms
+    modAuthor: cheesy
+    modVersion: 1.0.0
+    modDescription: 
+    modAssetPath: D:/UnityProjects/Wobbly Life Backrooms/Assets/Mods/The Backrooms
+    modExportPath: D:\UnityProjects\Wobbly Life Backrooms
+    modIcon: {fileID: 0}
+  - referencePaths: []
+    modName: Phobia
     modAuthor: DefaultCompany
     modVersion: 1.0.0
     modDescription: 
-    modAssetPath: D:\UnityProjects\Wobbly Life Backrooms\Assets\The Backrooms
-    modExportPath: D:\UnityProjects\Wobbly Life Backrooms
+    modAssetPath: D:\UnityProjects\Wobbly Life Backrooms\Assets\Mods\Phobia
+    modExportPath: 
     modIcon: {fileID: 0}
   logLevel: 3
   optimizeMode: 1
