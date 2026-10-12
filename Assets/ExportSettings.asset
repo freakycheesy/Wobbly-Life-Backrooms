@@ -26,10 +26,10 @@ MonoBehaviour:
     modName: Phobia
     modAuthor: DefaultCompany
     modVersion: 1.0.0
-    modDescription: 
+    modDescription: OUROBOROS
     modAssetPath: D:\UnityProjects\Wobbly Life Backrooms\Assets\Mods\Phobia
-    modExportPath: 
-    modIcon: {fileID: 0}
+    modExportPath: D:\UnityProjects\Wobbly Life Backrooms
+    modIcon: {fileID: 2800000, guid: 288a1fe02d9945a4f947821d7b0a7671, type: 3}
   logLevel: 3
   optimizeMode: 1
   compressionLevel: 2
